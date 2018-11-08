@@ -7,7 +7,7 @@
 <select name="cryptoa">
 <% while (j < i) %>
 <% k = @tab2[j].keys %>
-   <option value= k >
+   <option value = '<%= k %>'>
     <%= @tab2[j].keys %>
 </option>
 <% j = j + 1 %>
