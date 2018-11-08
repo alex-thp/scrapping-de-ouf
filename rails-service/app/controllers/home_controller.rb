@@ -10,6 +10,7 @@ class HomeController < ApplicationController
   	j = Crypto.last.tab.length
   	k = Crypto.last.tab
   	l = params["cryptoa"]
+    @z = params["cryptoa"]
   	puts l
   	puts k[0].keys
   	puts params["cryptoa"]
