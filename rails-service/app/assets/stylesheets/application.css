@@ -1,3 +1,16 @@
+body {background: #3494E6;
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+background: linear-gradient(to right, #EC6EAD, #3494E6);}
+
+#formulaire {
+margin-top: 25%;
+margin-left: 45%;}
+
+#bouton_formulaire
+{
+ margin-top: 0%;
+margin-left: 48%;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

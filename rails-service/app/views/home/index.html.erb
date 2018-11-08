@@ -1,5 +1,6 @@
 <html>
 <body>
+	<div id="formulaire">
 <form action="/home" method="post">
 	<input type="hidden" name="authenticity_token">
 <% i = @tab2.length %>
@@ -14,8 +15,11 @@
  <% end %>
  </select>
  <br><br>
+</div>
+<div id="bouton_formulaire">
  <input type="submit">
 </form>
+</div>
 
 </body>
 </html>
