@@ -3,14 +3,35 @@ background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
 background: linear-gradient(to right, #EC6EAD, #3494E6);}
 
 #formulaire {
-margin-top: 25%;
+	position: absolute;
+	z-index:3;
+margin-top: 0%;
 margin-left: 45%;}
 
 #bouton_formulaire
 {
- margin-top: 0%;
-margin-left: 48%;
+	position: absolute;
+	z-index:2;
+ margin-top: 2%;
+margin-left: 49%;
+
+
 }
+
+h1 {
+	position: absolute;
+	z-index:1;
+text-align: center;
+
+margin-top:150px ;
+	position: relative;
+	font: 70px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: white ;
+}
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
