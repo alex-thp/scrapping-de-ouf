@@ -12,13 +12,18 @@ class StartScrap
     name = page.xpath('//a[@class = "currency-name-container link-secondary"]').map{|e|e.text}
     x = 0
     y = price.length
-    tab = []
+    @tab = []
     while (x < y)
       result = Hash.new
       result[name[x]] = price[x]
-      tab[x] = result
+      @tab[x] = result
       x = x + 1
     end
-    return tab
+    return @tab
+  end
+  def save
+	crypt = Crypto.new
+    	crypt.tab = perform
+    	crypt.save
   end
 end
