@@ -1,6 +1,6 @@
 Réalisé par :
 - Alexandre
-- Steeve
+- Steve
 - Thomas
 - Elodie
 - Marc 
