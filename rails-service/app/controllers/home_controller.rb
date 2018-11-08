@@ -15,8 +15,8 @@ class HomeController < ApplicationController
   	puts params["cryptoa"]
   	while (i < j)
   	  if (k[i].keys.to_s == l)
-        m = k[i].values
-        return m
+        @m = k[i].values
+        return @m
       end
       i = i + 1
     end 
