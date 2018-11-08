@@ -10,15 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2018_11_08_102941) do
+=======
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> a7c495f230243a97dbf3c7a2c0f4a86a49e86728
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+<<<<<<< HEAD
   create_table "cryptos", force: :cascade do |t|
     t.text "tab"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
-end
