@@ -3,9 +3,6 @@ require 'open-uri'
 
 class StartScrap
 
-  def new
-  end
-
   def perform
     page = Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/"))
     price = page.xpath('//a[@class = "price"]').map{|e|e.text}
@@ -21,4 +18,5 @@ class StartScrap
     end
     return tab
   end
+
 end
