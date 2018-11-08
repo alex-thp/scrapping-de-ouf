@@ -18,7 +18,7 @@ class StartScrap
     end
     return @tab
   end
-<<<<<<< HEAD
+
   def save
 	crypt = Crypto.new
     	crypt.tab = perform
