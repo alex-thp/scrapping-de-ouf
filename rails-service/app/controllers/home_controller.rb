@@ -11,9 +11,6 @@ class HomeController < ApplicationController
   	k = Crypto.last.tab
   	l = params["cryptoa"]
     @z = params["cryptoa"]
-  	puts l
-  	puts k[0].keys
-  	puts params["cryptoa"]
   	while (i < j)
   	  if (k[i].keys.to_s == l)
         @m = k[i].values
