@@ -30,8 +30,12 @@ margin-top:150px ;
 	color: white ;
 }
 
+.a {text-align: center;}
+
+h4 {font-size: 20px;}
 
 
+p { font-size: 30px; }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
